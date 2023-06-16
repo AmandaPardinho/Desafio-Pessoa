@@ -17,7 +17,7 @@ namespace DesafioPessoa
          * 4 - Método para calcular a idade da pessoa
          * 
          */
-        private string pattern = "[0 - 9]{1,2}/{1}[0 - 9]{1,2}/{1}[0 - 9]{4}";
+        private string pattern = "[0-9]{1,2}/[0-9]{1,2}/[0-9]{4}";
         private string _birthday;
 
         public string Name { get; private set; }
@@ -25,13 +25,22 @@ namespace DesafioPessoa
         {
             get
             {
-                Match result = Regex.Match(_birthday, pattern);
-
-                if (result != null)
+                var result = Regex.IsMatch(_birthday, pattern);
+                Match match = null;
+                if (result)
                 {
-                    return _birthday;
+                    match = Regex.Match(_birthday, pattern);                 
                 }
-                return "Insert the correct value to birthday";
+
+                return match.Value;
+            }
+
+            set 
+            {
+                if(value != null)
+                {
+                    _birthday = value;
+                }
             }
         }
         public double Height { get; private set; }
@@ -40,7 +49,7 @@ namespace DesafioPessoa
         {
             Name = name;
             Height = height;
-            _birthday = birthday;
+            Birthday = birthday;
         }        
 
         public override string ToString()
@@ -50,8 +59,8 @@ namespace DesafioPessoa
 
         //public string CalculateAge()
         //{
-            
-             
+
+
         //}
     }
 }
