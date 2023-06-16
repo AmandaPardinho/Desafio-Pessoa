@@ -17,6 +17,7 @@ namespace DesafioPessoa
          * 4 - Método para calcular a idade da pessoa
          * 
          */
+
         private string pattern = "[0-9]{1,2}/[0-9]{1,2}/[0-9]{4}";
         private string _birthday;
 
@@ -54,13 +55,19 @@ namespace DesafioPessoa
 
         public override string ToString()
         {
-            return $"Personal Infos\nName: {Name}\nBirthday: {Birthday}\nHeight: {Height}";
+            return $"===== Personal Infos =====\n\nName: {Name}\nBirthday: {Birthday}\nHeight: {Height}m";
         }
 
-        //public string CalculateAge()
-        //{
+        public void CalculateAge()
+        {
+            string data = Birthday;
 
+            string yearBirth = data.Substring(data.Length - 4);
+            int year = Int32.Parse(yearBirth);
 
-        //}
+            int yearNow = DateTime.Now.Year;
+            int age = yearNow - year;
+            Console.WriteLine($"Age: {age} years old");
+        }
     }
 }
