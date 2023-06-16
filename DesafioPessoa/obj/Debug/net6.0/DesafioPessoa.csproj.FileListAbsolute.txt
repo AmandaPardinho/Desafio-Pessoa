@@ -1,0 +1,15 @@
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\DesafioPessoa\bin\Debug\net6.0\DesafioPessoa.exe
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\DesafioPessoa\bin\Debug\net6.0\DesafioPessoa.deps.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\DesafioPessoa\bin\Debug\net6.0\DesafioPessoa.runtimeconfig.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\DesafioPessoa\bin\Debug\net6.0\DesafioPessoa.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\DesafioPessoa\bin\Debug\net6.0\DesafioPessoa.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\DesafioPessoa\obj\Debug\net6.0\DesafioPessoa.csproj.AssemblyReference.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\DesafioPessoa\obj\Debug\net6.0\DesafioPessoa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\DesafioPessoa\obj\Debug\net6.0\DesafioPessoa.AssemblyInfoInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\DesafioPessoa\obj\Debug\net6.0\DesafioPessoa.AssemblyInfo.cs
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\DesafioPessoa\obj\Debug\net6.0\DesafioPessoa.csproj.CoreCompileInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\DesafioPessoa\obj\Debug\net6.0\DesafioPessoa.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\DesafioPessoa\obj\Debug\net6.0\refint\DesafioPessoa.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\DesafioPessoa\obj\Debug\net6.0\DesafioPessoa.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\DesafioPessoa\obj\Debug\net6.0\DesafioPessoa.genruntimeconfig.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\DesafioPessoa\obj\Debug\net6.0\ref\DesafioPessoa.dll
