@@ -9,6 +9,11 @@
       "FormsCadastroPessoa/1.0.0": {
         "runtime": {
           "FormsCadastroPessoa.dll": {}
+        },
+        "resources": {
+          "pt-BR/FormsCadastroPessoa.resources.dll": {
+            "locale": "pt-BR"
+          }
         }
       }
     }

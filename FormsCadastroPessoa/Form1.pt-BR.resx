@@ -126,13 +126,16 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnImprimir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>348, 175</value>
+    <value>483, 133</value>
   </data>
   <data name="btnImprimir.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 32</value>
   </data>
   <data name="cBoxPopUp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>348, 148</value>
+    <value>355, 144</value>
+  </data>
+  <data name="cBoxPainel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 182</value>
   </data>
   <data name="dateCalendario.AnnuallyBoldedDates" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAIAAAANAIBwe6QJySsAQMr4o+jgBws=</value>
@@ -140,12 +143,18 @@
   <data name="dateCalendario.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt</value>
   </data>
+  <data name="dateCalendario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 128</value>
+  </data>
   <data name="btnLimpar.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnLimpar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="btnLimpar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 182</value>
   </data>
   <data name="btnLimpar.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 32</value>
@@ -156,17 +165,23 @@
   <data name="lblResposta.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblResposta.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="lblResposta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 242</value>
+  </data>
   <data name="lblResposta.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 18</value>
+    <value>0, 24</value>
   </data>
   <data name="lblResposta.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>632, 376</value>
+    <value>626, 359</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>648, 415</value>
+    <value>646, 408</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
