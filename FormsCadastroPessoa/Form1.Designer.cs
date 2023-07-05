@@ -106,13 +106,15 @@
             // 
             resources.ApplyResources(dateCalendario, "dateCalendario");
             dateCalendario.BackColor = SystemColors.Control;
+            dateCalendario.CausesValidation = false;
             dateCalendario.Cursor = Cursors.Hand;
             dateCalendario.ForeColor = SystemColors.Control;
+            dateCalendario.MaxSelectionCount = 1;
             dateCalendario.Name = "dateCalendario";
             dateCalendario.ShowToday = false;
+            dateCalendario.ShowTodayCircle = false;
             dateCalendario.TitleBackColor = SystemColors.Control;
-            dateCalendario.TitleForeColor = SystemColors.Control;
-            dateCalendario.TrailingForeColor = SystemColors.Control;
+            dateCalendario.TrailingForeColor = SystemColors.ActiveCaptionText;
             // 
             // btnLimpar
             // 
@@ -148,7 +150,6 @@
             Cursor = Cursors.IBeam;
             MaximizeBox = false;
             Name = "formCadastro";
-            TopMost = true;
             ((System.ComponentModel.ISupportInitialize)dropDownAltura).EndInit();
             ResumeLayout(false);
             PerformLayout();
