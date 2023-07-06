@@ -1,4 +1,5 @@
 using System.ComponentModel.Design.Serialization;
+using BibliotecaPessoa;
 
 namespace FormsCadastroPessoa
 {
@@ -52,8 +53,9 @@ namespace FormsCadastroPessoa
         //imprime nome, data de nascimento e altura, conforme o checkbox ticado e impede a impressão dessas informações se o usuário não inserir o nome
         private void btnImprimir_Click(object sender, EventArgs e)
         {
-            string nome, altura, dataFormatada, resultado;
-            DateTime anoAtual, data, idade;
+            string nome, altura, dataFormatada, resultado, anoNascimento;
+            int anoAtual, ano, idade;
+            DateTime data;
 
             data = dateCalendario.SelectionRange.Start.Date;
             // "d" => um dos parâmetros permitidos pela convenção de cadeias de caracteres de formato de data e hora padrão
@@ -62,7 +64,10 @@ namespace FormsCadastroPessoa
             nome = txtNome.Text;
             altura = dropDownAltura.Text;
 
-            resultado = $"Nome: {nome}\nData de nascimento: {dataFormatada}\nAltura: {altura}";
+            Pessoa pessoa = new Pessoa();
+            pessoa.Nome = nome;
+            pessoa.DataNascimento = dataFormatada;
+            pessoa.Altura = Double.Parse(altura);
 
             try
             {
@@ -75,12 +80,12 @@ namespace FormsCadastroPessoa
                     else
                     {
                         lblResposta.Visible = true;
-                        lblResposta.Text = resultado;
+                        lblResposta.Text = pessoa.ToString();
                     }
                 }
                 else if (cBoxPopUp.Checked)
                 {
-                    MessageBox.Show(resultado);
+                    MessageBox.Show(pessoa.ToString());
                 }
 
 
