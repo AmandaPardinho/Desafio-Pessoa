@@ -5,7 +5,9 @@ VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioPessoa", "DesafioPessoa.csproj", "{C67C7A48-B766-4C5B-9E15-0B04391F6E73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsCadastroPessoa", "..\FormsCadastroPessoa\FormsCadastroPessoa.csproj", "{583FF7BD-AC39-4742-8D05-5BBD5E1E3F3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormsCadastroPessoa", "..\FormsCadastroPessoa\FormsCadastroPessoa.csproj", "{583FF7BD-AC39-4742-8D05-5BBD5E1E3F3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaPessoa", "..\BibliotecaPessoa\BibliotecaPessoa.csproj", "{168BB824-06DB-4AA1-B0BB-831ACB34A91F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{583FF7BD-AC39-4742-8D05-5BBD5E1E3F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{583FF7BD-AC39-4742-8D05-5BBD5E1E3F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{583FF7BD-AC39-4742-8D05-5BBD5E1E3F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168BB824-06DB-4AA1-B0BB-831ACB34A91F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168BB824-06DB-4AA1-B0BB-831ACB34A91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168BB824-06DB-4AA1-B0BB-831ACB34A91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168BB824-06DB-4AA1-B0BB-831ACB34A91F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

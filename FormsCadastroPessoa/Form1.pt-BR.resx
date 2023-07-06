@@ -117,6 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 108</value>
+  </data>
+  <data name="lblAltura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 328</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="txtNome.MaxLength" type="System.Int32, mscorlib">
     <value>50</value>
@@ -124,12 +131,14 @@
   <data name="txtNome.PlaceholderText" xml:space="preserve">
     <value>Digite seu nome</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnImprimir.Location" type="System.Drawing.Point, System.Drawing">
     <value>483, 133</value>
   </data>
   <data name="btnImprimir.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 32</value>
+  </data>
+  <data name="dropDownAltura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 348</value>
   </data>
   <data name="cBoxPopUp.Location" type="System.Drawing.Point, System.Drawing">
     <value>355, 144</value>
@@ -144,7 +153,7 @@
     <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="dateCalendario.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 128</value>
+    <value>34, 134</value>
   </data>
   <data name="btnLimpar.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt</value>
@@ -178,10 +187,10 @@
     <value>False</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>626, 359</value>
+    <value>630, 411</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>646, 408</value>
+    <value>646, 450</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

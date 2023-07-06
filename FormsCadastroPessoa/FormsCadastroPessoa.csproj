@@ -12,4 +12,10 @@
     <Folder Include="Properties\DataSources\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="BibliotecaPessoa">
+      <HintPath>..\BibliotecaPessoa\bin\Debug\net6.0\BibliotecaPessoa.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

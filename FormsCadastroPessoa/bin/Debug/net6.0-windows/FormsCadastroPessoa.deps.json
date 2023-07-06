@@ -7,6 +7,9 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "FormsCadastroPessoa/1.0.0": {
+        "dependencies": {
+          "BibliotecaPessoa": "1.0.0.0"
+        },
         "runtime": {
           "FormsCadastroPessoa.dll": {}
         },
@@ -15,12 +18,25 @@
             "locale": "pt-BR"
           }
         }
+      },
+      "BibliotecaPessoa/1.0.0.0": {
+        "runtime": {
+          "BibliotecaPessoa.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
   "libraries": {
     "FormsCadastroPessoa/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliotecaPessoa/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

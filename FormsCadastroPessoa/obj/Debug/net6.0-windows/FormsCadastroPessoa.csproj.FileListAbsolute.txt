@@ -18,3 +18,6 @@ C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\Forms
 C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\FormsCadastroPessoa\bin\Debug\net6.0-windows\pt-BR\FormsCadastroPessoa.resources.dll
 C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\FormsCadastroPessoa\obj\Debug\net6.0-windows\FormsCadastroPessoa.formCadastro.pt-BR.resources
 C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\FormsCadastroPessoa\obj\Debug\net6.0-windows\pt-BR\FormsCadastroPessoa.resources.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\FormsCadastroPessoa\bin\Debug\net6.0-windows\BibliotecaPessoa.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\FormsCadastroPessoa\bin\Debug\net6.0-windows\BibliotecaPessoa.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\FormsCadastroPessoa\obj\Debug\net6.0-windows\FormsCadastroPessoa.csproj.CopyComplete
