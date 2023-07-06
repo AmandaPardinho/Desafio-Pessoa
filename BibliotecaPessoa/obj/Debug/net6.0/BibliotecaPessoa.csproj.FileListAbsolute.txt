@@ -1,0 +1,12 @@
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaPessoa\bin\Debug\net6.0\BibliotecaPessoa.deps.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaPessoa\bin\Debug\net6.0\BibliotecaPessoa.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaPessoa\bin\Debug\net6.0\BibliotecaPessoa.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaPessoa\obj\Debug\net6.0\BibliotecaPessoa.csproj.AssemblyReference.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaPessoa\obj\Debug\net6.0\BibliotecaPessoa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaPessoa\obj\Debug\net6.0\BibliotecaPessoa.AssemblyInfoInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaPessoa\obj\Debug\net6.0\BibliotecaPessoa.AssemblyInfo.cs
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaPessoa\obj\Debug\net6.0\BibliotecaPessoa.csproj.CoreCompileInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaPessoa\obj\Debug\net6.0\BibliotecaPessoa.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaPessoa\obj\Debug\net6.0\refint\BibliotecaPessoa.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaPessoa\obj\Debug\net6.0\BibliotecaPessoa.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaPessoa\obj\Debug\net6.0\ref\BibliotecaPessoa.dll
