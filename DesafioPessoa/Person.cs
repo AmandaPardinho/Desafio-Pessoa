@@ -55,10 +55,10 @@ namespace DesafioPessoa
 
         public override string ToString()
         {
-            return $"===== Personal Infos =====\n\nName: {Name}\nBirthday: {Birthday}\nHeight: {Height}m";
+            return $"===== Personal Infos =====\n\nName: {Name}\nBirthday: {Birthday}\nHeight: {Height}m\nAge: {CalculateAge()} years old";
         }
 
-        public void CalculateAge()
+        public int CalculateAge()
         {
             string data = Birthday;
 
@@ -67,7 +67,7 @@ namespace DesafioPessoa
 
             int yearNow = DateTime.Now.Year;
             int age = yearNow - year;
-            Console.WriteLine($"Age: {age} years old");
+            return age;
         }
     }
 }
