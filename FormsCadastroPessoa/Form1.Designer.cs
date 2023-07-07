@@ -40,6 +40,10 @@
             dateCalendario = new MonthCalendar();
             btnLimpar = new Button();
             lblResposta = new Label();
+            btnSalvar = new Button();
+            sfdSalvar = new SaveFileDialog();
+            ofdAbrir = new OpenFileDialog();
+            fbdAbrirPasta = new FolderBrowserDialog();
             ((System.ComponentModel.ISupportInitialize)dropDownAltura).BeginInit();
             SuspendLayout();
             // 
@@ -132,10 +136,33 @@
             lblResposta.Name = "lblResposta";
             lblResposta.UseCompatibleTextRendering = true;
             // 
+            // btnSalvar
+            // 
+            resources.ApplyResources(btnSalvar, "btnSalvar");
+            btnSalvar.BackColor = SystemColors.ButtonFace;
+            btnSalvar.Name = "btnSalvar";
+            btnSalvar.UseVisualStyleBackColor = false;
+            btnSalvar.Click += btnSalvar_Click;
+            // 
+            // sfdSalvar
+            // 
+            resources.ApplyResources(sfdSalvar, "sfdSalvar");
+            sfdSalvar.InitialDirectory = "C:\\Users\\AmandaMarquesPardinh\\Desktop";
+            // 
+            // ofdAbrir
+            // 
+            resources.ApplyResources(ofdAbrir, "ofdAbrir");
+            ofdAbrir.InitialDirectory = "C:\\Users\\AmandaMarquesPardinh\\Desktop";
+            // 
+            // fbdAbrirPasta
+            // 
+            resources.ApplyResources(fbdAbrirPasta, "fbdAbrirPasta");
+            // 
             // formCadastro
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(btnSalvar);
             Controls.Add(lblResposta);
             Controls.Add(btnLimpar);
             Controls.Add(dateCalendario);
@@ -173,5 +200,9 @@
         private MonthCalendar dateCalendario;
         private Button btnLimpar;
         private Label lblResposta;
+        private Button btnSalvar;
+        private SaveFileDialog sfdSalvar;
+        private OpenFileDialog ofdAbrir;
+        private FolderBrowserDialog fbdAbrirPasta;
     }
 }
