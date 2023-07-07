@@ -1,0 +1,12 @@
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaArquivo\bin\Debug\net6.0\BibliotecaArquivo.deps.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaArquivo\bin\Debug\net6.0\BibliotecaArquivo.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaArquivo\bin\Debug\net6.0\BibliotecaArquivo.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaArquivo\obj\Debug\net6.0\BibliotecaArquivo.csproj.AssemblyReference.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaArquivo\obj\Debug\net6.0\BibliotecaArquivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaArquivo\obj\Debug\net6.0\BibliotecaArquivo.AssemblyInfoInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaArquivo\obj\Debug\net6.0\BibliotecaArquivo.AssemblyInfo.cs
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaArquivo\obj\Debug\net6.0\BibliotecaArquivo.csproj.CoreCompileInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaArquivo\obj\Debug\net6.0\BibliotecaArquivo.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaArquivo\obj\Debug\net6.0\refint\BibliotecaArquivo.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaArquivo\obj\Debug\net6.0\BibliotecaArquivo.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\BibliotecaArquivo\obj\Debug\net6.0\ref\BibliotecaArquivo.dll
