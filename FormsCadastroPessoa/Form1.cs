@@ -1,4 +1,8 @@
 using System.ComponentModel.Design.Serialization;
+using System.Diagnostics;
+using System.DirectoryServices;
+using System.IO;
+using System.Text;
 using BibliotecaPessoa;
 
 namespace FormsCadastroPessoa
@@ -101,7 +105,8 @@ namespace FormsCadastroPessoa
         {
             //retoma o valor inicial do numericUpDown
             var valorInicial = "0,00";
-            var valorFinal = dropDownAltura.Value.ToString(valorInicial);
+            var valorFinal = dropDownAltura.Value.ToString();
+
 
             //retoma a posição do calendário para a data de hoje
             DateTime diaAtual = DateTime.Today;
@@ -119,6 +124,58 @@ namespace FormsCadastroPessoa
 
             //apaga as informações impressas se o checkBox do painel tiver sido clicado anteriormente
             lblResposta.ResetText();
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(lblResposta.Text))
+            {
+                MessageBox.Show("Visualize os dados para conferi-los", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+                      
+
+            var texto = string.Empty;
+
+            sfdSalvar.Filter = "All files | *.* | Arquivo Texto | *.txt | PDF | *.pdf | Documento word | *.docx ";
+            sfdSalvar.FilterIndex = 0;
+
+            sfdSalvar.FileName = "infos_pessoais_" + DateTime.Now.ToString("fff");
+            texto = sfdSalvar.FileName;
+
+            DialogResult resultado = sfdSalvar.ShowDialog();
+            if (resultado == DialogResult.OK)
+            {
+                //using (FileStream fs = new FileStream(texto, FileMode.Create))
+                using (StreamWriter escritor = new StreamWriter(texto))
+                {
+                    escritor.Write(lblResposta.Text);
+                    escritor.Flush();
+                    escritor.Close();
+                }
+
+                var mensagem = MessageBox.Show("Gostaria de abrir o arquivo para conferir o conteúdo salvo?", "Atenção!", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if (mensagem == DialogResult.Yes)
+                {
+                    using (FileStream fs = new FileStream(texto, FileMode.Open))
+                    using (var leitor = new StreamReader(fs))
+                    {
+                        leitor.ReadToEnd();
+                    }
+                }
+                else
+                {
+                    Close();
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("Operação Cancelada", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
         }
     }
 }
