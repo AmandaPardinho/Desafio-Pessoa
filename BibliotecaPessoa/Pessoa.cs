@@ -52,7 +52,7 @@ namespace BibliotecaPessoa
 
         public override string ToString()
         {
-            return $"===== Personal Infos =====\n\nNome: {Nome}\nAltura{Altura}m\nData de Nascimento: {DataNascimento}\nIdade: {CalculaIdade()} anos";
+            return $"===== Personal Infos =====\n\nNome: {Nome}\nAltura: {Altura} m\nData de Nascimento: {DataNascimento}\nIdade: {CalculaIdade()} anos";
         }
 
         public int CalculaIdade()
