@@ -132,19 +132,22 @@
     <value>Digite seu nome</value>
   </data>
   <data name="btnImprimir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>483, 133</value>
+    <value>502, 134</value>
   </data>
   <data name="btnImprimir.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 32</value>
+    <value>89, 32</value>
+  </data>
+  <data name="btnImprimir.Text" xml:space="preserve">
+    <value>Visualizar</value>
   </data>
   <data name="dropDownAltura.Location" type="System.Drawing.Point, System.Drawing">
     <value>34, 348</value>
   </data>
   <data name="cBoxPopUp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>355, 144</value>
+    <value>390, 210</value>
   </data>
   <data name="cBoxPainel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>355, 182</value>
+    <value>390, 145</value>
   </data>
   <data name="dateCalendario.AnnuallyBoldedDates" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAIAAAANAIBwe6QJySsAQMr4o+jgBws=</value>
@@ -163,10 +166,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnLimpar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>483, 182</value>
+    <value>502, 210</value>
   </data>
   <data name="btnLimpar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 32</value>
+    <value>89, 32</value>
   </data>
   <data name="btnLimpar.Text" xml:space="preserve">
     <value>Limpar</value>
@@ -185,6 +188,18 @@
   </data>
   <data name="lblResposta.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="btnSalvar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 172</value>
+  </data>
+  <data name="btnSalvar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 32</value>
+  </data>
+  <data name="btnSalvar.Text" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="fbdAbrirPasta.SelectedPath" xml:space="preserve">
+    <value>C:\Users\AmandaMarquesPardinh\Desktop</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>630, 411</value>
