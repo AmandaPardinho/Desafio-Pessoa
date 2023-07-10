@@ -1,4 +1,5 @@
 using System.ComponentModel.Design.Serialization;
+using System.Configuration;
 using System.Diagnostics;
 using System.DirectoryServices;
 using System.IO;
@@ -9,9 +10,12 @@ namespace FormsCadastroPessoa
 {
     public partial class formCadastro : Form
     {
+        private decimal valorInicial;
+
         public formCadastro()
         {
             InitializeComponent();
+            valorInicial = dropDownAltura.Value;
         }
 
         //Detecta se tem ou não algum texto
@@ -104,9 +108,7 @@ namespace FormsCadastroPessoa
         private void btnLimpar_Click(object sender, EventArgs e)
         {
             //retoma o valor inicial do numericUpDown
-            var valorInicial = "0,00";
-            var valorFinal = dropDownAltura.Value.ToString();
-
+            dropDownAltura.Value = valorInicial;
 
             //retoma a posição do calendário para a data de hoje
             DateTime diaAtual = DateTime.Today;
@@ -126,44 +128,46 @@ namespace FormsCadastroPessoa
             lblResposta.ResetText();
         }
 
+        //salva arquivo contendo os dados inseridos pelo usuário
         private void btnSalvar_Click(object sender, EventArgs e)
         {
+            //verifica se o usuário inseriu valores nos campos
             if (string.IsNullOrEmpty(lblResposta.Text))
             {
-                MessageBox.Show("Visualize os dados para conferi-los", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Insira os dados e confira se estão corretos antes de salvar", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
-                      
-
-            var texto = string.Empty;
-
-            sfdSalvar.Filter = "All files | *.* | Arquivo Texto | *.txt | PDF | *.pdf | Documento word | *.docx ";
+           
+            //formatos de arquivo em que é possível salvar a informação
+            sfdSalvar.Filter = "All files (*.*) | *.* | Arquivo Texto (*.txt) | *.txt | PDF (*.pdf) | *.pdf | Documento word (*.docx) | *.docx | Arquivo XML (*.xml) | *.xml";
             sfdSalvar.FilterIndex = 0;
 
             sfdSalvar.FileName = "infos_pessoais_" + DateTime.Now.ToString("fff");
-            texto = sfdSalvar.FileName;
 
             DialogResult resultado = sfdSalvar.ShowDialog();
+
             if (resultado == DialogResult.OK)
             {
-                //using (FileStream fs = new FileStream(texto, FileMode.Create))
-                using (StreamWriter escritor = new StreamWriter(texto))
+                //caminho
+                var dirSalvar = sfdSalvar.FileName;
+
+                //cria o arquivo com as informações
+                using (FileStream fs = new FileStream(dirSalvar, FileMode.Create))
+                using (StreamWriter escritor = new StreamWriter(fs, Encoding.UTF8))
                 {
                     escritor.Write(lblResposta.Text);
                     escritor.Flush();
                     escritor.Close();
                 }
 
+                MessageBox.Show("Arquivo salvo com sucesso!", "Sucesso!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 var mensagem = MessageBox.Show("Gostaria de abrir o arquivo para conferir o conteúdo salvo?", "Atenção!", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
                 if (mensagem == DialogResult.Yes)
-                {
-                    using (FileStream fs = new FileStream(texto, FileMode.Open))
-                    using (var leitor = new StreamReader(fs))
-                    {
-                        leitor.ReadToEnd();
-                    }
+                {   
+                    //abre o arquivo que foi gerado
+                    Process.Start("notepad.exe", dirSalvar);                    
                 }
                 else
                 {
