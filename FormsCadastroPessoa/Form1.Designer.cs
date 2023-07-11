@@ -42,8 +42,8 @@
             lblResposta = new Label();
             btnSalvar = new Button();
             sfdSalvar = new SaveFileDialog();
+            btnInserir = new Button();
             ofdAbrir = new OpenFileDialog();
-            fbdAbrirPasta = new FolderBrowserDialog();
             ((System.ComponentModel.ISupportInitialize)dropDownAltura).BeginInit();
             SuspendLayout();
             // 
@@ -149,19 +149,27 @@
             resources.ApplyResources(sfdSalvar, "sfdSalvar");
             sfdSalvar.InitialDirectory = "C:\\Users\\AmandaMarquesPardinh\\Desktop";
             // 
+            // btnInserir
+            // 
+            resources.ApplyResources(btnInserir, "btnInserir");
+            btnInserir.BackColor = SystemColors.ButtonFace;
+            btnInserir.Name = "btnInserir";
+            btnInserir.UseVisualStyleBackColor = false;
+            btnInserir.Click += btnInserir_Click;
+            // 
             // ofdAbrir
             // 
+            ofdAbrir.DefaultExt = "txt";
+            ofdAbrir.FileName = "ofdAbrir";
             resources.ApplyResources(ofdAbrir, "ofdAbrir");
             ofdAbrir.InitialDirectory = "C:\\Users\\AmandaMarquesPardinh\\Desktop";
-            // 
-            // fbdAbrirPasta
-            // 
-            resources.ApplyResources(fbdAbrirPasta, "fbdAbrirPasta");
+            ofdAbrir.RestoreDirectory = true;
             // 
             // formCadastro
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(btnInserir);
             Controls.Add(btnSalvar);
             Controls.Add(lblResposta);
             Controls.Add(btnLimpar);
@@ -202,7 +210,7 @@
         private Label lblResposta;
         private Button btnSalvar;
         private SaveFileDialog sfdSalvar;
+        private Button btnInserir;
         private OpenFileDialog ofdAbrir;
-        private FolderBrowserDialog fbdAbrirPasta;
     }
 }
