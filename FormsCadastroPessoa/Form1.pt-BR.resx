@@ -132,7 +132,7 @@
     <value>Digite seu nome</value>
   </data>
   <data name="btnImprimir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>502, 134</value>
+    <value>382, 134</value>
   </data>
   <data name="btnImprimir.Size" type="System.Drawing.Size, System.Drawing">
     <value>89, 32</value>
@@ -144,10 +144,10 @@
     <value>34, 348</value>
   </data>
   <data name="cBoxPopUp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>390, 210</value>
+    <value>283, 210</value>
   </data>
   <data name="cBoxPainel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>390, 145</value>
+    <value>283, 134</value>
   </data>
   <data name="dateCalendario.AnnuallyBoldedDates" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAIAAAANAIBwe6QJySsAQMr4o+jgBws=</value>
@@ -166,7 +166,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnLimpar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>502, 210</value>
+    <value>502, 199</value>
   </data>
   <data name="btnLimpar.Size" type="System.Drawing.Size, System.Drawing">
     <value>89, 32</value>
@@ -190,7 +190,7 @@
     <value>False</value>
   </data>
   <data name="btnSalvar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>502, 172</value>
+    <value>382, 199</value>
   </data>
   <data name="btnSalvar.Size" type="System.Drawing.Size, System.Drawing">
     <value>89, 32</value>
@@ -198,8 +198,14 @@
   <data name="btnSalvar.Text" xml:space="preserve">
     <value>Salvar</value>
   </data>
-  <data name="fbdAbrirPasta.SelectedPath" xml:space="preserve">
-    <value>C:\Users\AmandaMarquesPardinh\Desktop</value>
+  <data name="btnInserir.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="btnInserir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 32</value>
+  </data>
+  <data name="btnInserir.Text" xml:space="preserve">
+    <value>Inserir</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>630, 411</value>
