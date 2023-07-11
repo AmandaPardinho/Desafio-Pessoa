@@ -137,7 +137,7 @@ namespace FormsCadastroPessoa
                 MessageBox.Show("Insira os dados e confira se estão corretos antes de salvar", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-           
+
             //formatos de arquivo em que é possível salvar a informação
             sfdSalvar.Filter = "All files (*.*) | *.* | Arquivo Texto (*.txt) | *.txt | PDF (*.pdf) | *.pdf | Documento word (*.docx) | *.docx | Arquivo XML (*.xml) | *.xml";
             sfdSalvar.FilterIndex = 0;
@@ -151,7 +151,7 @@ namespace FormsCadastroPessoa
                 //caminho
                 var dirSalvar = sfdSalvar.FileName;
 
-                //cria o arquivo com as informações
+                //cria o arquivo txt com as informações
                 using (FileStream fs = new FileStream(dirSalvar, FileMode.Create))
                 using (StreamWriter escritor = new StreamWriter(fs, Encoding.UTF8))
                 {
@@ -165,9 +165,9 @@ namespace FormsCadastroPessoa
                 var mensagem = MessageBox.Show("Gostaria de abrir o arquivo para conferir o conteúdo salvo?", "Atenção!", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
                 if (mensagem == DialogResult.Yes)
-                {   
+                {
                     //abre o arquivo que foi gerado
-                    Process.Start("notepad.exe", dirSalvar);                    
+                    Process.Start("notepad.exe", dirSalvar);
                 }
                 else
                 {
@@ -180,6 +180,24 @@ namespace FormsCadastroPessoa
                 MessageBox.Show("Operação Cancelada", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
+        }
+
+        private void btnInserir_Click(object sender, EventArgs e)
+        {
+            ofdAbrir.Filter = "Arquivo Texto (*.txt) | *.txt";                        
+            DialogResult resultado = ofdAbrir.ShowDialog();
+
+            if (resultado == DialogResult.OK)
+            {
+                var caminho = ofdAbrir.FileName;
+
+                using (FileStream fs = new FileStream(caminho, FileMode.Open))
+                using (StreamReader leitor = new StreamReader(fs))
+                {
+                    Process.Start("notepad.exe", caminho);
+                    leitor.ReadToEnd();
+                }
+            }
         }
     }
 }
