@@ -2,8 +2,12 @@ using System.ComponentModel.Design.Serialization;
 using System.Configuration;
 using System.Diagnostics;
 using System.DirectoryServices;
+using System.Globalization;
 using System.IO;
+using System.Linq;
+using System.Security.Permissions;
 using System.Text;
+using System.Text.RegularExpressions;
 using BibliotecaPessoa;
 
 namespace FormsCadastroPessoa
@@ -184,20 +188,58 @@ namespace FormsCadastroPessoa
 
         private void btnInserir_Click(object sender, EventArgs e)
         {
-            ofdAbrir.Filter = "Arquivo Texto (*.txt) | *.txt";                        
+            //define o formato do arquivo que o ShowDialog irá exibir
+            ofdAbrir.Filter = "Arquivo Texto (*.txt) | *.txt";
             DialogResult resultado = ofdAbrir.ShowDialog();
+
+            //caminho do arquivo
+            var caminho = ofdAbrir.FileName;
 
             if (resultado == DialogResult.OK)
             {
-                var caminho = ofdAbrir.FileName;
-
+                //abre e lê o arquivo
                 using (FileStream fs = new FileStream(caminho, FileMode.Open))
                 using (StreamReader leitor = new StreamReader(fs))
                 {
                     Process.Start("notepad.exe", caminho);
                     leitor.ReadToEnd();
-                }
+                }               
             }
+
+            //verifica se o caminho existe
+            if (File.Exists(caminho))
+            {
+                //define um array a partir do conteúdo do arquivo
+                string[] linhas = File.ReadAllLines(caminho);
+
+                //acessa o arquivo e captura os valores para escrever no forms
+                using (FileStream fs = new FileStream(caminho, FileMode.Open)) 
+                {   
+                    //define o valor de txtNome
+                    string nome = linhas[2];
+                    txtNome.Text = nome.Substring(5);
+
+                    //define o valor de dropDownAltura
+                    string altura = linhas[3];
+                    string padrao = "[0-9]{1,2},[0-9]{2}";
+                    bool valorFinal = Regex.IsMatch(altura.Substring(7), padrao);
+                    Match match = null;
+                    if (valorFinal)
+                    {
+                        match = Regex.Match(altura.Substring(7), padrao);
+                    }
+                    dropDownAltura.Value = Decimal.Parse(match.Value);
+                    
+                    //define a data do monthCalendar
+                    string dataNascimento = linhas[4];
+                    CultureInfo provider = CultureInfo.InvariantCulture;
+                    DateTime data = DateTime.ParseExact(dataNascimento.Substring(20), "dd/MM/yyyy", provider);
+                    dateCalendario.SetDate(data);                    
+
+                    //fecha o stream
+                    fs.Close();
+                }
+            }           
         }
     }
 }
