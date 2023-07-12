@@ -117,305 +117,226 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;txtNome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtResposta.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="cBoxPainel.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="btnInserir.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;lblResposta.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnInserir.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;dateCalendario.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MonthCalendar, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lblNome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="&gt;&gt;lblData.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnSalvar.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="cBoxPopUp.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;btnImprimir.Name" xml:space="preserve">
-    <value>btnImprimir</value>
-  </data>
-  <data name="txtResposta.Location" type="System.Drawing.Point, System.Drawing">
-    <value>348, 230</value>
-  </data>
-  <data name="&gt;&gt;pResposta.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnImprimir.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;sfdSalvar.Name" xml:space="preserve">
-    <value>sfdSalvar</value>
-  </data>
-  <data name="cBoxPainel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Cadastro</value>
-  </data>
-  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
-    <value>openFileDialog1</value>
-  </data>
-  <data name="&gt;&gt;btnLimpar.Name" xml:space="preserve">
-    <value>btnLimpar</value>
-  </data>
-  <data name="&gt;&gt;btnImprimir.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;fbdAbrePasta.Name" xml:space="preserve">
-    <value>fbdAbrePasta</value>
-  </data>
-  <data name="lblData.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lblData.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 93</value>
-  </data>
-  <data name="&gt;&gt;fbdAbrePasta.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtNome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>557, 25</value>
-  </data>
-  <data name="Calendario.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt</value>
-  </data>
-  <data name="&gt;&gt;lblNome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblNome.Name" xml:space="preserve">
-    <value>lblNome</value>
-  </data>
-  <data name="btnImprimir.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 32</value>
-  </data>
-  <data name="lblData.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt</value>
-  </data>
-  <data name="cBoxPainel.Text" xml:space="preserve">
-    <value>Painel</value>
-  </data>
-  <data name="&gt;&gt;ofdAbrir.Type" xml:space="preserve">
-    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="&gt;&gt;txtResposta.Name" xml:space="preserve">
-    <value>txtResposta</value>
-  </data>
-  <data name="txtNome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 50</value>
-  </data>
-  <data name="&gt;&gt;personBindingSource.Type" xml:space="preserve">
-    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dropDownAltura.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblData.Text" xml:space="preserve">
-    <value>Data de Nascimento</value>
-  </data>
-  <data name="btnImprimir.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt</value>
-  </data>
-  <data name="&gt;&gt;cBoxPainel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dateCalendario.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="lblData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 17</value>
-  </data>
-  <data name="btnImprimir.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="Calendario.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 119</value>
-  </data>
-  <data name="&gt;&gt;Calendario.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;txtNome.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblResposta.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblData.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;dateCalendario.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Calendario.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MonthCalendar, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblAltura.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;txtNome.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="btnSalvar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>483, 187</value>
-  </data>
-  <data name="&gt;&gt;lblData.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;personBindingSource.Name" xml:space="preserve">
-    <value>personBindingSource</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
-  </data>
-  <data name="&gt;&gt;lblData.Name" xml:space="preserve">
-    <value>lblData</value>
-  </data>
-  <data name="dropDownAltura.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;lblAltura.Name" xml:space="preserve">
-    <value>lblAltura</value>
-  </data>
-  <data name="cBoxPainel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>530, 148</value>
-  </data>
-  <data name="Calendario.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="cBoxPopUp.Text" xml:space="preserve">
-    <value>Pop Up</value>
-  </data>
-  <data name="cBoxPainel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt</value>
-  </data>
-  <data name="&gt;&gt;btnSalvar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;sfdSalvar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>348, 230</value>
-  </data>
-  <data name="&gt;&gt;lblNome.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dateCalendario.Name" xml:space="preserve">
-    <value>dateCalendario</value>
-  </data>
-  <data name="lblNome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 30</value>
-  </data>
-  <data name="&gt;&gt;btnSalvar.Name" xml:space="preserve">
-    <value>btnSalvar</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="lblAltura.Text" xml:space="preserve">
-    <value>Altura</value>
-  </data>
-  <data name="&gt;&gt;colorDialog1.Name" xml:space="preserve">
-    <value>colorDialog1</value>
-  </data>
-  <data name="&gt;&gt;lblNome.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;pResposta.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cBoxPopUp.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="lblAltura.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 303</value>
-  </data>
-  <data name="&gt;&gt;Calendario.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="cBoxPopUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 21</value>
-  </data>
-  <data name="&gt;&gt;btnLimpar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btnImprimir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>405, 175</value>
-  </data>
-  <data name="&gt;&gt;btnImprimir.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="txtResposta.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="dropDownAltura.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 25</value>
-  </data>
-  <data name="txtNome.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;txtNome.Name" xml:space="preserve">
-    <value>txtNome</value>
-  </data>
-  <data name="&gt;&gt;cBoxPopUp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnSalvar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblResposta.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>623, 360</value>
   </data>
   <data name="&gt;&gt;btnInserir.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnInserir.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblAltura.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cBoxPopUp.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cBoxPopUp.Name" xml:space="preserve">
+    <value>cBoxPopUp</value>
+  </data>
+  <data name="&gt;&gt;Calendario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MonthCalendar, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dropDownAltura.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblData.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnLimpar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;sfdSalvar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSalvar.Name" xml:space="preserve">
+    <value>btnSalvar</value>
+  </data>
+  <data name="txtNome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 50</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnInserir.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;fbdAbrePasta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAltura.Text" xml:space="preserve">
+    <value>Altura</value>
+  </data>
+  <data name="&gt;&gt;btnImprimir.Name" xml:space="preserve">
+    <value>btnImprimir</value>
+  </data>
+  <data name="&gt;&gt;sfdSalvar.Name" xml:space="preserve">
+    <value>sfdSalvar</value>
+  </data>
+  <data name="&gt;&gt;lblResposta.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSalvar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblNome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="cBoxPainel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="pResposta.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Calendario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 119</value>
+  </data>
+  <data name="&gt;&gt;btnImprimir.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cBoxPainel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 21</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Calendario.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;cBoxPainel.Name" xml:space="preserve">
+    <value>cBoxPainel</value>
+  </data>
+  <data name="&gt;&gt;btnSalvar.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;cBoxPainel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnSalvar.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="pResposta.Location" type="System.Drawing.Point, System.Drawing">
-    <value>348, 239</value>
+  <data name="lblNome.Text" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="lblData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 17</value>
+  </data>
+  <data name="lblAltura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;btnLimpar.Name" xml:space="preserve">
+    <value>btnLimpar</value>
+  </data>
+  <data name="lblAltura.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblNome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;personBindingSource.Name" xml:space="preserve">
+    <value>personBindingSource</value>
+  </data>
+  <data name="&gt;&gt;btnLimpar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dropDownAltura.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLimpar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 175</value>
+  </data>
+  <data name="lblAltura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 303</value>
+  </data>
+  <data name="btnImprimir.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pResposta.Name" xml:space="preserve">
+    <value>pResposta</value>
   </data>
   <data name="cBoxPopUp.Location" type="System.Drawing.Point, System.Drawing">
     <value>367, 148</value>
   </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
   <data name="lblResposta.Location" type="System.Drawing.Point, System.Drawing">
     <value>348, 227</value>
+  </data>
+  <data name="lblResposta.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;cBoxPainel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Calendario.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dateCalendario.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="dateCalendario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 119</value>
+  </data>
+  <data name="&gt;&gt;cBoxPopUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 93</value>
+  </data>
+  <data name="&gt;&gt;lblResposta.Name" xml:space="preserve">
+    <value>lblResposta</value>
+  </data>
+  <data name="&gt;&gt;lblResposta.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtNome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtResposta.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnImprimir.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;btnInserir.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;fbdAbrirPasta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnImprimir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 32</value>
+  </data>
+  <data name="&gt;&gt;lblData.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtNome.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtResposta.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblData.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnImprimir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cBoxPopUp.Text" xml:space="preserve">
+    <value>Pop Up</value>
+  </data>
+  <data name="&gt;&gt;btnLimpar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Calendario.AnnuallyBoldedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAIAAAANAIBwe6QJySsAQMr4o+jgBws=</value>
+  </data>
+  <data name="&gt;&gt;Calendario.Name" xml:space="preserve">
+    <value>Calendario</value>
+  </data>
+  <data name="cBoxPainel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;lblNome.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="&gt;&gt;txtResposta.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -423,184 +344,263 @@
   <data name="&gt;&gt;lblAltura.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;dropDownAltura.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;pResposta.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="dropDownAltura.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 323</value>
+  <data name="&gt;&gt;colorDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnLimpar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;pResposta.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;ofdAbrir.Name" xml:space="preserve">
+    <value>ofdAbrir</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>formCadastro</value>
+  <data name="&gt;&gt;fbdAbrirPasta.Name" xml:space="preserve">
+    <value>fbdAbrirPasta</value>
   </data>
-  <data name="lblResposta.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="&gt;&gt;cBoxPainel.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="&gt;&gt;dropDownAltura.Name" xml:space="preserve">
-    <value>dropDownAltura</value>
+  <data name="&gt;&gt;lblData.Name" xml:space="preserve">
+    <value>lblData</value>
   </data>
-  <data name="&gt;&gt;cBoxPainel.Name" xml:space="preserve">
-    <value>cBoxPainel</value>
+  <data name="&gt;&gt;lblResposta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnImprimir.Text" xml:space="preserve">
-    <value>Imprimir</value>
+  <data name="lblData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="cBoxPopUp.AutoSize" type="System.Boolean, mscorlib">
+  <data name="dropDownAltura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="txtResposta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 230</value>
+  </data>
+  <data name="&gt;&gt;txtResposta.Name" xml:space="preserve">
+    <value>txtResposta</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblNome.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="&gt;&gt;cBoxPopUp.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="dateCalendario.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="btnInserir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>505, 134</value>
-  </data>
   <data name="lblAltura.Size" type="System.Drawing.Size, System.Drawing">
     <value>42, 17</value>
-  </data>
-  <data name="&gt;&gt;lblAltura.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="btnLimpar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>483, 175</value>
-  </data>
-  <data name="lblAltura.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt</value>
-  </data>
-  <data name="pResposta.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;lblData.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="btnLimpar.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="btnSalvar.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="cBoxPainel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 21</value>
-  </data>
-  <data name="lblNome.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblNome.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>623, 360</value>
-  </data>
-  <data name="&gt;&gt;ofdAbrir.Name" xml:space="preserve">
-    <value>ofdAbrir</value>
-  </data>
-  <data name="&gt;&gt;pResposta.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pResposta.Name" xml:space="preserve">
-    <value>pResposta</value>
-  </data>
-  <data name="dateCalendario.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 119</value>
-  </data>
-  <data name="&gt;&gt;btnInserir.Name" xml:space="preserve">
-    <value>btnInserir</value>
-  </data>
-  <data name="&gt;&gt;txtResposta.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cBoxPopUp.Name" xml:space="preserve">
-    <value>cBoxPopUp</value>
-  </data>
-  <data name="&gt;&gt;lblAltura.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblResposta.Name" xml:space="preserve">
-    <value>lblResposta</value>
-  </data>
-  <data name="cBoxPopUp.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt</value>
-  </data>
-  <data name="txtNome.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt</value>
-  </data>
-  <data name="lblNome.Text" xml:space="preserve">
-    <value>Nome</value>
-  </data>
-  <data name="lblAltura.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;Calendario.Name" xml:space="preserve">
-    <value>Calendario</value>
-  </data>
-  <data name="&gt;&gt;colorDialog1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblNome.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;fbdAbrirPasta.Name" xml:space="preserve">
-    <value>fbdAbrirPasta</value>
-  </data>
-  <data name="dropDownAltura.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt</value>
-  </data>
-  <data name="&gt;&gt;btnLimpar.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="Calendario.AnnuallyBoldedDates" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAIAAAANAIBwe6QJySsAQMr4o+jgBws=</value>
-  </data>
-  <data name="&gt;&gt;dropDownAltura.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;cBoxPainel.ZOrder" xml:space="preserve">
-    <value>5</value>
   </data>
   <data name="lblNome.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="&gt;&gt;fbdAbrirPasta.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblData.Text" xml:space="preserve">
+    <value>Data de Nascimento</value>
   </data>
-  <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="lblNome.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cBoxPainel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnImprimir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 175</value>
+  </data>
+  <data name="&gt;&gt;colorDialog1.Name" xml:space="preserve">
+    <value>colorDialog1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>formCadastro</value>
+  </data>
+  <data name="&gt;&gt;txtNome.Name" xml:space="preserve">
+    <value>txtNome</value>
+  </data>
+  <data name="lblAltura.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnInserir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cBoxPopUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 21</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;dateCalendario.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtNome.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="dropDownAltura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="pResposta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 239</value>
+  </data>
+  <data name="dropDownAltura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 323</value>
+  </data>
+  <data name="txtNome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>557, 25</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 230</value>
+  </data>
+  <data name="&gt;&gt;dropDownAltura.Name" xml:space="preserve">
+    <value>dropDownAltura</value>
+  </data>
+  <data name="&gt;&gt;lblAltura.Name" xml:space="preserve">
+    <value>lblAltura</value>
+  </data>
+  <data name="Calendario.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtNome.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dropDownAltura.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dateCalendario.Name" xml:space="preserve">
+    <value>dateCalendario</value>
+  </data>
+  <data name="&gt;&gt;ofdAbrir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtNome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSalvar.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;fbdAbrePasta.Name" xml:space="preserve">
+    <value>fbdAbrePasta</value>
+  </data>
+  <data name="cBoxPainel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnInserir.Name" xml:space="preserve">
+    <value>btnInserir</value>
+  </data>
+  <data name="&gt;&gt;dateCalendario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MonthCalendar, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Cadastro</value>
+  </data>
+  <data name="&gt;&gt;dateCalendario.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pResposta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;btnImprimir.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblNome.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cBoxPopUp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;Calendario.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;personBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNome.Name" xml:space="preserve">
+    <value>lblNome</value>
+  </data>
+  <data name="lblNome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 30</value>
+  </data>
+  <data name="btnImprimir.Text" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnInserir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>505, 134</value>
+  </data>
+  <data name="&gt;&gt;txtResposta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblAltura.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;dropDownAltura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cBoxPopUp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cBoxPainel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>530, 148</value>
+  </data>
+  <data name="cBoxPainel.Text" xml:space="preserve">
+    <value>Painel</value>
+  </data>
+  <data name="btnLimpar.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnSalvar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 187</value>
+  </data>
+  <data name="cBoxPopUp.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <metadata name="fbdAbrePasta.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <metadata name="sfdSalvar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>19, 7</value>
   </metadata>
-  <metadata name="ofdAbrir.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>119, 7</value>
-  </metadata>
-  <metadata name="fbdAbrePasta.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="fbdAbrirPasta.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>19, 16</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>pt-BR</value>
   </metadata>
-  <metadata name="personBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>12, 18</value>
+  </metadata>
+  <metadata name="personBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="ofdAbrir.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>119, 7</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="fbdAbrirPasta.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>19, 16</value>
   </metadata>
 </root>
