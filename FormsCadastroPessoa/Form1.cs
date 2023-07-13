@@ -1,5 +1,7 @@
 using System.ComponentModel.Design.Serialization;
 using System.Configuration;
+using System.Data;
+using System.Data.OleDb;
 using System.Diagnostics;
 using System.DirectoryServices;
 using System.Globalization;
@@ -203,7 +205,7 @@ namespace FormsCadastroPessoa
                 {
                     Process.Start("notepad.exe", caminho);
                     leitor.ReadToEnd();
-                }               
+                }
             }
 
             //verifica se o caminho existe
@@ -213,15 +215,15 @@ namespace FormsCadastroPessoa
                 string[] linhas = File.ReadAllLines(caminho);
 
                 //acessa o arquivo e captura os valores para escrever no forms
-                using (FileStream fs = new FileStream(caminho, FileMode.Open)) 
-                {   
+                using (FileStream fs = new FileStream(caminho, FileMode.Open))
+                {
                     //define o valor de txtNome
                     string nome = linhas[2];
                     txtNome.Text = nome.Substring(5);
 
                     //define o valor de dropDownAltura
                     string altura = linhas[3];
-                    string padrao = "[0-9]{1,2},[0-9]{2}";
+                    string padrao = "[0-9]{1,2},[0-9]{1,2}";
                     bool valorFinal = Regex.IsMatch(altura.Substring(7), padrao);
                     Match match = null;
                     if (valorFinal)
@@ -229,17 +231,82 @@ namespace FormsCadastroPessoa
                         match = Regex.Match(altura.Substring(7), padrao);
                     }
                     dropDownAltura.Value = Decimal.Parse(match.Value);
-                    
+
                     //define a data do monthCalendar
                     string dataNascimento = linhas[4];
                     CultureInfo provider = CultureInfo.InvariantCulture;
                     DateTime data = DateTime.ParseExact(dataNascimento.Substring(20), "dd/MM/yyyy", provider);
-                    dateCalendario.SetDate(data);                    
+                    dateCalendario.SetDate(data);
 
                     //fecha o stream
                     fs.Close();
                 }
-            }           
+            }
+        }
+
+        private void btnExcel_Click(object sender, EventArgs e)
+        {
+            //define o formato do arquivo que o ShowDialog irá exibir
+            ofdAbrir.Filter = "Pasta de Trabalho do Excel (*.xlsx) | *.xlsx";
+            DialogResult resultado = ofdAbrir.ShowDialog();
+
+            //caminho do arquivo
+            var caminho = ofdAbrir.FileName;
+
+            if (resultado == DialogResult.OK)
+            {
+                //abre e lê o arquivo
+                using (FileStream fs = new FileStream(caminho, FileMode.Open))
+                using (StreamReader leitor = new StreamReader(fs))
+                {
+                    leitor.ReadToEnd();
+                }
+            }
+
+            //if (File.Exists(caminho))
+            //{
+            //    OleDbConnection conexao = new OleDbConnection(@$"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={caminho};Extended Properties='Excel 12.0 Xml;HDR=YES';");
+
+            //    OleDbDataAdapter adaptador = new OleDbDataAdapter("select * from [Planilha1$]", conexao);
+            //    DataSet ds = new DataSet();
+
+            //    conexao.Open();
+
+            //    adaptador.Fill(ds);
+            //    ds.Tables[0].Rows.Add(txtNome.Text[0]);
+                
+
+            //    //define um array a partir do conteúdo do arquivo
+            //    string[] linhas = File.ReadAllLines(caminho);
+
+            //    //acessa o arquivo e captura os valores para escrever no forms
+            //    using (FileStream fs = new FileStream(caminho, FileMode.Open))
+            //    {
+            //        //define o valor de txtNome
+            //        string nome = linhas[2];
+            //        txtNome.Text = nome.Substring(5);
+
+            //        //define o valor de dropDownAltura
+            //        string altura = linhas[3];
+            //        string padrao = "[0-9]{1,2},[0-9]{1,2}";
+            //        bool valorFinal = Regex.IsMatch(altura.Substring(7), padrao);
+            //        Match match = null;
+            //        if (valorFinal)
+            //        {
+            //            match = Regex.Match(altura.Substring(7), padrao);
+            //        }
+            //        dropDownAltura.Value = Decimal.Parse(match.Value);
+
+            //        //define a data do monthCalendar
+            //        string dataNascimento = linhas[4];
+            //        CultureInfo provider = CultureInfo.InvariantCulture;
+            //        DateTime data = DateTime.ParseExact(dataNascimento.Substring(20), "dd/MM/yyyy", provider);
+            //        dateCalendario.SetDate(data);
+
+            //        //fecha o stream
+            //        fs.Close();
+            //    }
+            // }
         }
     }
 }
