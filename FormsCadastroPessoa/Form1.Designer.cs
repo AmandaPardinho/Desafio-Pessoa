@@ -44,6 +44,7 @@
             sfdSalvar = new SaveFileDialog();
             btnInserir = new Button();
             ofdAbrir = new OpenFileDialog();
+            btnExcel = new Button();
             ((System.ComponentModel.ISupportInitialize)dropDownAltura).BeginInit();
             SuspendLayout();
             // 
@@ -140,6 +141,7 @@
             // 
             resources.ApplyResources(btnSalvar, "btnSalvar");
             btnSalvar.BackColor = SystemColors.ButtonFace;
+            btnSalvar.Cursor = Cursors.Hand;
             btnSalvar.Name = "btnSalvar";
             btnSalvar.UseVisualStyleBackColor = false;
             btnSalvar.Click += btnSalvar_Click;
@@ -153,6 +155,7 @@
             // 
             resources.ApplyResources(btnInserir, "btnInserir");
             btnInserir.BackColor = SystemColors.ButtonFace;
+            btnInserir.Cursor = Cursors.Hand;
             btnInserir.Name = "btnInserir";
             btnInserir.UseVisualStyleBackColor = false;
             btnInserir.Click += btnInserir_Click;
@@ -165,10 +168,20 @@
             ofdAbrir.InitialDirectory = "C:\\Users\\AmandaMarquesPardinh\\Desktop";
             ofdAbrir.RestoreDirectory = true;
             // 
+            // btnExcel
+            // 
+            resources.ApplyResources(btnExcel, "btnExcel");
+            btnExcel.BackColor = SystemColors.ButtonFace;
+            btnExcel.Cursor = Cursors.Hand;
+            btnExcel.Name = "btnExcel";
+            btnExcel.UseVisualStyleBackColor = false;
+            btnExcel.Click += btnExcel_Click;
+            // 
             // formCadastro
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(btnExcel);
             Controls.Add(btnInserir);
             Controls.Add(btnSalvar);
             Controls.Add(lblResposta);
@@ -212,5 +225,6 @@
         private SaveFileDialog sfdSalvar;
         private Button btnInserir;
         private OpenFileDialog ofdAbrir;
+        private Button btnExcel;
     }
 }
