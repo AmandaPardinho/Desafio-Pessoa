@@ -297,6 +297,10 @@ namespace FormsCadastroPessoa
                         {
                             mensagem2 = mensagem;
                         }
+                        else
+                        {
+                            Close();
+                        }
                     }
                     MessageBox.Show("Esses foram os valores de todas as linhas", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     break;
