@@ -1,0 +1,6 @@
+﻿===== Personal Infos =====
+
+Nome: Flavia
+Altura: 1,6 m
+Data de Nascimento: 09/02/1962
+Idade: 61 anos
