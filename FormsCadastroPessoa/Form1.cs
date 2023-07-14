@@ -10,7 +10,9 @@ using System.Linq;
 using System.Security.Permissions;
 using System.Text;
 using System.Text.RegularExpressions;
+using ClosedXML.Excel;
 using BibliotecaPessoa;
+using ClosedXML;
 
 namespace FormsCadastroPessoa
 {
@@ -263,50 +265,51 @@ namespace FormsCadastroPessoa
                 }
             }
 
-            //if (File.Exists(caminho))
-            //{
-            //    OleDbConnection conexao = new OleDbConnection(@$"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={caminho};Extended Properties='Excel 12.0 Xml;HDR=YES';");
+            //cria o objeto do arquivo do tipo XLWorkbook
+            var xlsx = new XLWorkbook(caminho);
 
-            //    OleDbDataAdapter adaptador = new OleDbDataAdapter("select * from [Planilha1$]", conexao);
-            //    DataSet ds = new DataSet();
+            //cria a folha de trabalho
+            var planilha = xlsx.Worksheets.First(sheets => sheets.Name == "Planilha1");
 
-            //    conexao.Open();
+            //Obtém apenas as linhas usadas na planilha
+            var planilhaPreenchida = planilha.RowsUsed();
 
-            //    adaptador.Fill(ds);
-            //    ds.Tables[0].Rows.Add(txtNome.Text[0]);
-                
+            //Determina o número de linhas preenchidas da planilha
+            var numeroLinhas = planilhaPreenchida.Count();
+            
+            var mensagem = MessageBox.Show($"Essa planilha tem um total de {numeroLinhas} linhas. Deseja ver os dados de uma dessas linhas?", "Atenção!", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
 
-            //    //define um array a partir do conteúdo do arquivo
-            //    string[] linhas = File.ReadAllLines(caminho);
+            switch (mensagem)
+            {
+                case DialogResult.Yes:
+                    //exibe os dados de cada linha enquanto linhaAtual <= numeroLinhas
+                    for (var linhaAtual = 2; linhaAtual <= numeroLinhas; linhaAtual++)
+                    {
+                        MessageBox.Show($"Mostrando os resultados da linha {linhaAtual}", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            //    //acessa o arquivo e captura os valores para escrever no forms
-            //    using (FileStream fs = new FileStream(caminho, FileMode.Open))
-            //    {
-            //        //define o valor de txtNome
-            //        string nome = linhas[2];
-            //        txtNome.Text = nome.Substring(5);
+                        txtNome.Text = planilha.Cell($"A{linhaAtual}").Value.ToString();
+                        dropDownAltura.Value = Decimal.Parse(planilha.Cell($"B{linhaAtual}").Value.ToString());
+                        DateTime.TryParse(planilha.Cell($"C{linhaAtual}").Value.ToString(), out DateTime data);
+                        dateCalendario.SetDate(data);
 
-            //        //define o valor de dropDownAltura
-            //        string altura = linhas[3];
-            //        string padrao = "[0-9]{1,2},[0-9]{1,2}";
-            //        bool valorFinal = Regex.IsMatch(altura.Substring(7), padrao);
-            //        Match match = null;
-            //        if (valorFinal)
-            //        {
-            //            match = Regex.Match(altura.Substring(7), padrao);
-            //        }
-            //        dropDownAltura.Value = Decimal.Parse(match.Value);
-
-            //        //define a data do monthCalendar
-            //        string dataNascimento = linhas[4];
-            //        CultureInfo provider = CultureInfo.InvariantCulture;
-            //        DateTime data = DateTime.ParseExact(dataNascimento.Substring(20), "dd/MM/yyyy", provider);
-            //        dateCalendario.SetDate(data);
-
-            //        //fecha o stream
-            //        fs.Close();
-            //    }
-            // }
+                        var mensagem2 = MessageBox.Show("Deseja exibir a próxima linha?", "Atenção!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                        if(DialogResult.Yes == mensagem2)
+                        {
+                            mensagem2 = mensagem;
+                        }
+                    }
+                    MessageBox.Show("Esses foram os valores de todas as linhas", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    break;
+                case DialogResult.No:
+                    Close();
+                    break;
+                case DialogResult.Cancel:
+                    Close();
+                    break;
+                default:
+                    Close();
+                    break;
+            }            
         }
     }
 }
