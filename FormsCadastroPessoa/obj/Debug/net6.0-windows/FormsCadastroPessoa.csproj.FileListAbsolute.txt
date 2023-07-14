@@ -21,3 +21,9 @@ C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\Forms
 C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\FormsCadastroPessoa\bin\Debug\net6.0-windows\BibliotecaPessoa.dll
 C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\FormsCadastroPessoa\bin\Debug\net6.0-windows\BibliotecaPessoa.pdb
 C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\FormsCadastroPessoa\obj\Debug\net6.0-windows\FormsCadastroPessoa.csproj.CopyComplete
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\FormsCadastroPessoa\bin\Debug\net6.0-windows\ClosedXML.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\FormsCadastroPessoa\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\FormsCadastroPessoa\bin\Debug\net6.0-windows\ExcelNumberFormat.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\FormsCadastroPessoa\bin\Debug\net6.0-windows\Irony.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\FormsCadastroPessoa\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Desafio-Pessoa\FormsCadastroPessoa\bin\Debug\net6.0-windows\XLParser.dll
